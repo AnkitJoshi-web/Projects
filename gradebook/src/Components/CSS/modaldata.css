@@ -1,0 +1,28 @@
+.modaldata {
+    height: 300px;
+    width: 500px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+    z-index: 1;
+    position: fixed;
+    top: 20%; 
+    left: 33%;
+    border-radius: 20px;
+    /* box-shadow: 1px 1px 3px rgb(55, 53, 53); */
+}
+
+.closePopupBtn {
+    padding: 7px 25px;
+    border: none;
+    background-color: rgb(0, 181, 198);
+    border-radius: 25px;
+    font-size: large;
+    font-weight: 600;
+    cursor: pointer;
+    /* color: white; */
+}
+.closePopupBtn:hover {
+    background-color: rgb(73, 126, 173);
+}

@@ -1,0 +1,25 @@
+function Passed() {
+    data.map((student) => 
+    {
+      let finalGrade = (0.6*(student.examGrade) + 0.4*(student.ratingGrade)).toFixed(2);
+      if(finalGrade>4) {
+        status = "Passed";
+      } else {
+        status = "Failed";
+      }
+      if(status==="Passed") {
+        tdata = (
+          <tr key={student.id}>
+          <td>{student.id}</td>
+          <td>{student.name}</td>
+          <td>{student.ticketNo}</td>
+          <td>{student.ratingGrade}</td>
+          <td>{student.examGrade}</td>
+          <td>{finalGrade}</td>
+          <td>{status}</td>
+          <td>{student.details}</td>
+        </tr>)
+      }
+      return tdata;
+    })
+  }

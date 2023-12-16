@@ -1,0 +1,86 @@
+.table, th, td {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+.table {
+    margin: auto;
+    width: 100%;
+}
+.table th, .table td {
+    padding: 10px 30px;
+    text-align: center;
+}
+.buttondiv {
+    margin: 10px 0px 10px 250px;
+}
+.buttondiv button {
+    padding: 6px 20px;
+    cursor: pointer;
+    margin: 4px;
+    border-radius: 15px;
+    background-color: rgb(51, 96, 233);
+    color: aliceblue;
+    font-weight: 600;
+    font-size: large;
+}
+.buttondiv button:hover {
+    background-color: rgb(10, 64, 228);
+    color: black;
+}
+#search {
+    padding: 6px;
+    margin-left: 420px;
+    border-radius: 10px;
+    width: 200px;
+}
+
+.detailBtn {
+    background-color: rgb(49, 49, 243);
+    border-radius: 20px;
+    padding: 8px 16px;
+    cursor: pointer;
+    font-weight: 600;
+    color: white;
+}
+.detailBtn:hover {
+    background-color: rgb(255, 247, 0);
+    color: black;
+}
+
+.statisticsBtnDiv {
+    margin: 30px 0;
+    display: flex;
+    justify-content: center;
+}
+.statisticsBtn {
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: rgb(23, 23, 188);
+    cursor: pointer;
+    margin: auto;
+    color: aliceblue;
+}
+.statisticsBtn:hover {
+    background-color: rgb(37, 44, 255);
+}
+.headRow {
+    background-color: rgb(255, 225, 58);
+}
+th{
+    background-color: #333;
+    color: white;
+    
+}
+
+tr:nth-child(odd) {
+    background-color: rgb(254, 251, 251);
+  }
+
+tr:nth-child(even){
+    background-color: rgb(165, 176, 188);
+}
+.tdRow:hover {
+    background-color: rgb(176, 206, 225);
+}

@@ -1,0 +1,106 @@
+.title {
+    background-color: lightslategray;
+    
+    font-size: 200%;
+}
+.title img {
+    height: 40px;
+    width: 40px;
+    padding-block: 7px;
+    margin-left: 20px;
+    margin-right: 5px;
+}
+.title h2 {
+    padding-block: 20px ;
+    
+    text-align: center;
+    
+}
+.header-information {
+    height: 130px;
+    width: 100%;
+    /* background-color: rgb(77, 116, 140); */
+    background-color: rgb(214, 241, 174);
+}
+.header-information h2 {
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+.professor-name-div {
+    display: flex;
+}
+.header-information img {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.professor-name-div span {
+    line-height: 40px;
+    margin-left: 10px;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    row-gap: 30px;
+    align-content: center;
+    padding: 15px;
+    font-size: large;
+    font-weight: 600;
+}
+.popup-container {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(189, 189, 189, 0.782);
+    position: fixed;
+    top: 0;
+}
+.popup {
+    height: 550px;
+    width: 700px;
+    background-color: rgb(216, 243, 243);
+    border-radius: 20px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+
+.popupHeader {
+    display: flex;
+    justify-content: space-between;
+}
+
+.popupHeader .closeIcon {
+    font-size: 50px;
+    font-weight: 600;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.popupHeader h1 {
+    padding: 10px 15px;
+}
+.img-container {
+    text-align: center;
+}
+.professor-image {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    margin: 20px;
+}
+.professor-info {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: 50px 50px 50px;
+    justify-content: space-evenly;
+    /* column-gap: 50px; */
+}
+.professor-info span {
+    font-size: large;
+    font-weight: 600;
+}
+.professor-info a {
+    text-decoration: none;
+}
